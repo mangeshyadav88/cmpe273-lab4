@@ -2,11 +2,10 @@ package edu.sjsu.cmpe.cache.client;
 
 import java.util.ArrayList;
 import java.util.Map.Entry;
+import java.util.concurrent.CountDownLatch;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CountDownLatch;
-
 
 public class CRDTClient {
 
